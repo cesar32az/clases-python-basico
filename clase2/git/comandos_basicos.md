@@ -1,0 +1,12 @@
+- **`git init`**: Crea un nuevo repositorio Git vacío en el directorio actual.
+- **`git add <archivo>`**: Agrega los cambios realizados en un archivo específico al área de preparación (staging).
+- **`git add .`** o **`git add -A`**: Agrega todos los cambios realizados en el directorio actual al área de preparación.
+- **`git commit -m "<mensaje>"`**: Crea un nuevo commit con los cambios agregados al área de preparación. El mensaje describe los cambios realizados.
+- **`git status`**: Muestra el estado actual del repositorio, incluyendo los archivos que han sido modificados, agregados o eliminados.
+- **`git log`**: Muestra una lista de todos los commits realizados en el repositorio, ordenados por fecha.
+- **`git branch`**: Muestra una lista de todas las ramas del repositorio.
+- **`git checkout <rama>`**: Cambia a la rama especificada.
+- **`git merge <rama>`**: Fusiona la rama especificada con la rama actual.
+- **`git clone <URL>`**: Clona un repositorio remoto en tu computadora.
+- **`git push`**: Envía los commits locales al repositorio remoto.
+- **`git pull`**: Obtiene los cambios realizados en el repositorio remoto y los fusiona con los cambios locales.
