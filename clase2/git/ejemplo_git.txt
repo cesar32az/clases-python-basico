@@ -1,0 +1,17 @@
+git init
+
+git status
+
+git add .
+
+git commit -m "agregada clase y clase 2 con git"
+
+git remote add origin https://github.com/cesar32az/clases-python-basico.git # si no lo tiene
+
+git push -u origin main
+
+# realizar cambios en nuevo archivo
+
+git add .
+
+git commit -m "agregado ejemplo de git"
