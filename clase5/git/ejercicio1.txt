@@ -1,0 +1,8 @@
+1. crear un repositorio nuevo en github que se llame test-git
+2. crear un archivo README.md 
+3. crear una rama llamada feature/tareas
+4. en esta rama agregar un listado de tareas al README.md
+5. crear commit correspondiente
+6. agregar un archivo nuevo que sea de python y que tenga una funcion hello world
+7. crear commit correspondiente
+8. crear pull request y hacer el merge a main o master
