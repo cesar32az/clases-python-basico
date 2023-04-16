@@ -68,9 +68,116 @@ def imprimir_numeros(lista):
 
 # imprimir_numeros(lista_numeros)
 
-animales = ["caballo", "gato", "perro"]
+# animales = ["caballo", "gato", "perro"]
 
-for animal in animales:
-    if animal == "caballo":
-        continue
-    print(animal)
+# for animal in animales:
+#     if animal == "caballo":
+#         continue
+#     print(animal)
+
+## ciclo while
+
+"""count = 0
+
+while count < 4:
+    print(f"count: {count}, condicion: {count < 4}")
+    count += 1
+print(f"count: {count}, condicion: {count < 4}")
+
+"""
+"""
+1. sumar
+2. restar
+0. salir
+"""
+
+"""
+def obtener_opcion():
+    opcion = int(input("ingrese una opcion: "))
+    return opcion
+
+
+opcion = None
+
+while opcion not in [0, 1, 2]:
+    opcion = obtener_opcion()
+    print("opcion invalida valida\n")
+
+print("opcion valida")
+"""
+"""
+import time
+
+while True:
+    print("hola")
+    time.sleep(2)
+"""
+
+# repaso de funciones
+
+
+def sumar(num1, num2):
+    return num1 + num2
+
+
+def imprimir():
+    print("hola")
+
+
+## orden en argumentos
+
+
+def imprimir_nombre(first_name, last_name):
+    print(f"nombre: {first_name} apellido: {last_name}")
+
+
+# imprimir_nombre("julio", "rodriguez")
+
+# imprimir_nombre(last_name="rodriguez", first_name="julio")
+
+
+def division(divisor, dividendo):
+    print(divisor / dividendo)
+
+
+# division(dividendo=5, divisor=10)
+
+
+## funciones anidadas
+
+
+def ejecutar_programa():
+    def sumar(a, b):
+        return a + b
+
+    def restar(a, b):
+        return a - b
+
+    def imprimir_resultado(num1, num2):
+        suma = sumar(num1, num2)
+        resta = restar(num1, num2)
+
+        print(f"suma: {suma}, resta = {resta}")
+
+    num1 = 10
+    num2 = 5
+
+    imprimir_resultado(num1, num2)
+
+
+# ejecutar_programa()
+
+
+animales = ["gato", "perro", "pez", "tigre", "cabra"]
+
+
+def primer_y_ultimo_elemento(animales):
+    primer_elemento = animales[0]
+    ultimo_elemento = animales[-1]
+
+    return primer_elemento, ultimo_elemento
+
+
+primero, ultimo = primer_y_ultimo_elemento(animales)
+
+print(f"primero: {primero} - ultimo: {ultimo}")
